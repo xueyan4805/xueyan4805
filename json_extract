@@ -1,0 +1,17 @@
+mysql> select id,json_extract(json_value,'$.deptName') as deptName from dept;
++----+------------------------------+
+| id | deptName                     |
++----+------------------------------+
+|  1 | "部门1"                      |
+...
+
+mysql> SELECT * FROM dept WHERE JSON_EXTRACT(json_value,'$.deptName') like '%部门%'\G
+*************************** 1. row ***************************
+        id: 1
+      dept: 部门1
+json_value: {"deptId": "1", "deptName": "部门1", "deptLeaderId": "3"}
+*************************** 2. row ***************************
+        id: 2
+      dept: 部门2
+json_value: {"deptId": "2", "newData": "新增的数据", "deptName": "新增的部门1111", "deptLeaderId": "4"}
+...cx 
