@@ -1,0 +1,21 @@
+ public SampleUserImpl(User inUser) { 
+     
+        fInfo = new Hashtable(); 
+         
+        setLoginId(inUser.getLoginId()); 
+        setFirstName(inUser.getFirstName()); 
+        setLastName(inUser.getLastName()); 
+        setMiddleName(inUser.getMiddleName()); 
+        setGender(inUser.getGender()); 
+        setStreet1(inUser.getStreet1()); 
+        setStreet2(inUser.getStreet2()); 
+        setCity(inUser.getCity()); 
+        setState(inUser.getState()); 
+        setPostalCode(inUser.getPostalCode()); 
+        setCountry(inUser.getCountry()); 
+        setEmail(inUser.getEmail()); 
+        setPhone(inUser.getPhone()); 
+        setSalutation(inUser.getSalutation()); 
+        setIsEnabled(inUser.isEnabled()); 
+        setPassword(inUser.getPassword()); 
+        setUniqueDeviceId(inUser.getUniqueDeviceId()); 
