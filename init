@@ -1,0 +1,18 @@
+try { 
+			init();			 
+		} catch (Exception ex) { 
+				throw new com.sun.content.server.service.security.util.UserProfileResourceException( "Failed to instantiate SampleUserManagerImpl ", ex); 
+		} 
+	} 
+ 
+	// This method will create an External Directory Server Proxy and 
+  // initiatlize this User Manager 
+		private void init() throws UserProfileResourceException 
+	{	 
+		System.out.println("Initializing External UserManager .... "); 
+		 
+		try { 
+			proxy = new SampleExternalProxy(); 
+		} catch (Exception ex) { 
+			System.out.println("Fatal Error " + ex.toString()); 
+			throw new com.sun.content.server.service.security.util.User
