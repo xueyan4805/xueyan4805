@@ -1,0 +1,9 @@
+ System.out.println("subName="+s.getSubName()); 
+      System.out.println("selector="+s.getSelector()); 
+      System.out.println("durable="+s.isDurable()); 
+      System.out.println("transactional="+s.isTransactional()); 
+      System.out.println("jndiCtxFactory="+s.getJndiCtxFactory()); 
+      System.out.println("connFactory="+s.getConnFactory()); 
+      System.out.println("providerURL="+s.getProviderURL()); 
+      System.out.println("topicName="+s.getTopicName()); 
+ 
