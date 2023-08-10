@@ -1,0 +1,12 @@
+if (y < top)
+			{
+				top = y;
+			}
+			if (top <= 1)
+			{
+				gameOver();
+			}
+		}
+		_x = 6;
+		_y = 1;
+		return true;
