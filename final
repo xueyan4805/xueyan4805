@@ -1,0 +1,7 @@
+  private static final int INDEX_TABLE_ID = 1;
+    private static final int INDEX_ID = 2;
+    private static final int INDEX_NAME = 3;
+    private static final int INDEX_FLAGS = 4;
+    private static final int INDEX_COLUMN_ORDER = 5;
+    private static final int INDEX_COLUMN_COLUMN_ID = 6;
+    private static final int INDEX_COLUMN_FLAGS = 7;
