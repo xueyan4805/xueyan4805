@@ -1,0 +1,8 @@
+ if (GET_BILLING_INFOS_RESPONSE == BILLING_EXCEPTION) 
+      throw new BillingException("Testing Billing Exception"); 
+ 
+    return inBillingInfos; 
+  } 
+ 
+  /** 
+   * see.BillingManager#authorize(BillingInfo, boolean[])
