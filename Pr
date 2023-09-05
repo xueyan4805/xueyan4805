@@ -1,0 +1,8 @@
+
+            boolean enabled = false; 
+            if (aUPD.getStatus().equals("1")) 
+                enabled = true; 
+  
+            boolean prepay = false; 
+            if (aUPD.getPrepayType().equals("1")) 
+                prepay = true; 
